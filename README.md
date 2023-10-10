@@ -18,7 +18,7 @@
 
 - [Processing Batch Data on Databricks](#processing-batch-data-on-databricks)
 
-- [Stream Processing: AWS Kinesis]
+- [Stream Processing: AWS Kinesis](#stream-processingaws-kinesis)
 
 
 
@@ -428,7 +428,7 @@ After that we have perforemed cleaning and computations using Apache spark.
 #### Orchestrate Databricks Workloads on AWS MWAA
 MWAA was used to automate the process of running the batch processing on Databricks. The file 0a70d64d47bd_dag.py is the Python code for a directed acyclic graph (DAG) that orchestrates the running of the batch processing notebook described above. The file was uploaded to the MWAA environment, where Airflow is utilised to connect to and run the Databricks notebook at scheduled intervals, in this case @daily.
 
-## Stream Processing: AWS Kinesis
+## Stream Processing:AWS Kinesis
 
 Using Kinesis Data Streams create three data streams, one for each Pinterest table.
 
