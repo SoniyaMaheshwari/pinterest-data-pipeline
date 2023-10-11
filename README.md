@@ -20,6 +20,8 @@
 
 - [Stream Processing: AWS Kinesis](#stream-processingaws-kinesis)
 
+- [Future Work](#future-work)
+
 
 
 
@@ -459,6 +461,10 @@ Running the script kinesis_streaming.py starts an infinite loop that, that retri
 
 #### Process stream Data in Databricks.
 The notebook kinesis_stream_processing.ipynb contains all the code necessary for retrieving the streams from Kinesis,cleaning the data, and then writing the data into Delta tables on the Databricks cluster
+
+
+## Future Work:
+To take this project further, I think it would be a good idea to further query the streaming data and visualise the data using a tool such as Tableau or Power BI.
 
 
 
