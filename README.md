@@ -32,6 +32,8 @@
 
 
 
+
+
 ## Project Introduction
 Pinterest crunches billions of data points every day to decide how to provide more value to their users. In this project, I have created a similar system using the AWS Cloud. Here, I have created two separate pipelines, one for computing real-time metrics and other for computing metrics that depend on the historical data. 
 
